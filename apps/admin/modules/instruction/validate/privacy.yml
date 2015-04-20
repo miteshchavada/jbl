@@ -1,0 +1,14 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [privacy_data]
+
+fillin:
+  enable:  true
+
+names:
+  privacy_data:
+    required:     Yes
+    required_msg: Please Enter Privacy Data

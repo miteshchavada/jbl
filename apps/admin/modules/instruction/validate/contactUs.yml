@@ -1,0 +1,14 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [contactus_data]
+
+fillin:
+  enable:  true
+
+names:
+  contactus_data:
+    required:     Yes
+    required_msg: Please Enter Contact Us Data

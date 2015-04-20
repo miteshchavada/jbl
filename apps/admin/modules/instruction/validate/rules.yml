@@ -1,0 +1,14 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [rules_data]
+
+fillin:
+  enable:  true
+
+names:
+  rules_data:
+    required:     Yes
+    required_msg: Please Enter Rules Data

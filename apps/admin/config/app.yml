@@ -1,0 +1,7 @@
+# default values
+all:
+  web_path: http://ram.jbl.svs153/admin
+  webpath: http://ram.jbl.svs153
+  upload_webpath: http://ram.jbl.svs153/uploads/
+  upload_file_path: /home/ramesh/web/www.jbl.com/web/uploads
+  page: 20

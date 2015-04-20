@@ -1,0 +1,43 @@
+/* $Id: tab.css,v 1.1.1.1 2009/03/17 10:53:38 keval Exp $ */
+
+
+/* TAB*/
+	#tab {
+        padding: 3px 0 0;
+        margin-left: 0;
+        border-bottom: 1px solid #959595;
+        font: bold 12px Verdana, sans-serif;
+}
+
+#tab li {
+        list-style: none;
+        margin: 0;
+        display: inline;
+}
+
+#tab li a {
+        padding: 3px 0.5em;
+        margin-left: 5px;
+        border: 1px solid #959595;
+        border-bottom: none;
+        background: #CEE187;
+        text-decoration: none;
+        line-height:22px;
+}
+
+#tab li a:link { color: #448; }
+#tab li a:visited { color: #70706C; }
+
+#tab li a:hover {
+        color: #545450;
+        background: #A7CD02;
+        border-color: #227;
+}
+
+#tab li a#current {
+        background: #BABAB8;
+        color:#121212;
+        border-bottom: 1px solid #BABAB8;
+}
+ul,li{margin:0;padding:0;}
+a{outline:none;}

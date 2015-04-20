@@ -1,0 +1,178 @@
+Nov 25 18:22:40 symfony [info] {sfRouting} connect "/"
+Nov 25 18:22:40 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Nov 25 18:22:40 symfony [info] {sfRouting} connect "/:module"
+Nov 25 18:22:40 symfony [info] {sfRouting} connect "/:module/:action/*"
+Nov 25 18:22:40 symfony [info] {sfContext} initialization
+Nov 25 18:22:40 symfony [info] {sfController} initialization
+Nov 25 18:22:40 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 25 18:22:40 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 25 18:22:40 symfony [info] {sfController} dispatch request
+Nov 25 18:22:40 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:22:40 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:22:40 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:22:40 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:22:40 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:22:40 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Nov 25 18:22:40 symfony [info] {sfView} initialize view for "default/index"
+Nov 25 18:22:40 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/default/templates/indexSuccess.php"
+Nov 25 18:22:40 symfony [info] {sfView} decorate content with "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:22:40 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:22:40 symfony [info] {sfFilter} render to client
+Nov 25 18:22:40 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 25 18:22:40 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 25 18:22:40 symfony [info] {sfResponse} send content (20955 o)
+Nov 25 18:22:40 symfony [info] {sfTimerManager} Configuration 15.82 ms (9)
+Nov 25 18:22:40 symfony [info] {sfTimerManager} Action "default/index" 0.08 ms (1)
+Nov 25 18:22:40 symfony [info] {sfTimerManager} View "Success" for "default/index" 8.22 ms (1)
+Nov 25 18:26:34 symfony [info] {sfContext} initialization
+Nov 25 18:26:34 symfony [info] {sfController} initialization
+Nov 25 18:26:34 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 25 18:26:34 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',  'adminuser' => 'super',  'adminpass' => 'super',  'login' => 'Login',)
+Nov 25 18:26:34 symfony [info] {sfController} dispatch request
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:35 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Nov 25 18:26:35 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'meh_jbl',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'svs',   'persistent' => true,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'svs', ), FLAGS: 1
+Nov 25 18:26:35 symfony [info] {sfCreole} prepareStatement(): SELECT adminlogin.ID, adminlogin.ADMIN_USER, adminlogin.ADMIN_PASS FROM adminlogin WHERE adminlogin.ADMIN_USER=? AND adminlogin.ADMIN_PASS=?
+Nov 25 18:26:35 symfony [info] {sfCreole} applyLimit(): SELECT adminlogin.ID, adminlogin.ADMIN_USER, adminlogin.ADMIN_PASS FROM adminlogin WHERE adminlogin.ADMIN_USER='super' AND adminlogin.ADMIN_PASS='1b3231655cebb7a1f783eddf27d254ca', offset: 0, limit: 1
+Nov 25 18:26:35 symfony [info] {sfCreole} executeQuery(): [0.30 ms] SELECT adminlogin.ID, adminlogin.ADMIN_USER, adminlogin.ADMIN_PASS FROM adminlogin WHERE adminlogin.ADMIN_USER='super' AND adminlogin.ADMIN_PASS='1b3231655cebb7a1f783eddf27d254ca' LIMIT 1
+Nov 25 18:26:35 symfony [info] {sfCreole} prepareStatement(): SELECT COUNT(adminlogin.ID) FROM adminlogin WHERE adminlogin.ADMIN_USER=? AND adminlogin.ADMIN_PASS=?
+Nov 25 18:26:35 symfony [info] {sfCreole} executeQuery(): [0.29 ms] SELECT COUNT(adminlogin.ID) FROM adminlogin WHERE adminlogin.ADMIN_USER='super' AND adminlogin.ADMIN_PASS='1b3231655cebb7a1f783eddf27d254ca'
+Nov 25 18:26:35 symfony [info] {sfUser} user is authenticated
+Nov 25 18:26:35 symfony [info] {sfAction} redirect to "http://meh.jbl.svs113/admin/instruction/aboutUs"
+Nov 25 18:26:35 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Nov 25 18:26:35 symfony [info] {sfResponse} send header "Location": "http://meh.jbl.svs113/admin/instruction/aboutUs"
+Nov 25 18:26:35 symfony [info] {sfResponse} send content (118 o)
+Nov 25 18:26:35 symfony [info] {sfContext} initialization
+Nov 25 18:26:35 symfony [info] {sfController} initialization
+Nov 25 18:26:35 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Nov 25 18:26:35 symfony [info] {sfRequest} request parameters array (  'module' => 'instruction',  'action' => 'aboutUs',)
+Nov 25 18:26:35 symfony [info] {sfController} dispatch request
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:35 symfony [info] {sfValidator} validation execution
+Nov 25 18:26:35 symfony [info] {sfView} initialize view for "instruction/aboutUs"
+Nov 25 18:26:35 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/instruction/templates/aboutUsSuccess.php"
+Nov 25 18:26:35 symfony [info] {sfView} initialize view for "instruction/_instructionsidebar"
+Nov 25 18:26:35 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/instruction/templates/_instructionsidebar.php"
+Nov 25 18:26:35 symfony [info] {sfView} initialize view for "global/_tinymce"
+Nov 25 18:26:35 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/_tinymce.php"
+Nov 25 18:26:35 symfony [info] {sfView} decorate content with "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:35 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:35 symfony [info] {sfView} initialize view for "global/_sidebar"
+Nov 25 18:26:35 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/_sidebar.php"
+Nov 25 18:26:35 symfony [info] {sfFilter} render to client
+Nov 25 18:26:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 25 18:26:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 25 18:26:35 symfony [info] {sfResponse} send content (24563 o)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} Configuration 14.68 ms (12)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} Action "instruction/aboutUs" 0.43 ms (1)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} View "Success" for "instruction/aboutUs" 10.42 ms (1)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} Partial "instruction/_instructionsidebar" 0.86 ms (1)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} Partial "global/_tinymce" 0.23 ms (1)
+Nov 25 18:26:35 symfony [info] {sfTimerManager} Partial "global/_sidebar" 0.80 ms (1)
+Nov 25 18:26:40 symfony [info] {sfContext} initialization
+Nov 25 18:26:40 symfony [info] {sfController} initialization
+Nov 25 18:26:40 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Nov 25 18:26:40 symfony [info] {sfRequest} request parameters array (  'module' => 'product',  'action' => 'list',)
+Nov 25 18:26:40 symfony [info] {sfController} dispatch request
+Nov 25 18:26:40 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:40 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:40 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:40 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:40 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:40 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'meh_jbl',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'svs',   'persistent' => true,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'svs', ), FLAGS: 1
+Nov 25 18:26:40 symfony [info] {sfCreole} prepareStatement(): SELECT COUNT(product.ID) FROM product
+Nov 25 18:26:40 symfony [info] {sfCreole} executeQuery(): [0.23 ms] SELECT COUNT(product.ID) FROM product
+Nov 25 18:26:40 symfony [info] {sfCreole} prepareStatement(): SELECT product.ID, product.TITLE, product.IMAGE, product.STATUS, product.UPDATED_AT, product.CREATED_AT FROM product
+Nov 25 18:26:40 symfony [info] {sfCreole} applyLimit(): SELECT product.ID, product.TITLE, product.IMAGE, product.STATUS, product.UPDATED_AT, product.CREATED_AT FROM product, offset: 0, limit: 20
+Nov 25 18:26:40 symfony [info] {sfCreole} executeQuery(): [0.25 ms] SELECT product.ID, product.TITLE, product.IMAGE, product.STATUS, product.UPDATED_AT, product.CREATED_AT FROM product LIMIT 20
+Nov 25 18:26:40 symfony [info] {sfView} initialize view for "product/list"
+Nov 25 18:26:40 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/product/templates/listSuccess.php"
+Nov 25 18:26:40 symfony [info] {sfView} decorate content with "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:40 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:40 symfony [info] {sfView} initialize view for "global/_sidebar"
+Nov 25 18:26:40 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/_sidebar.php"
+Nov 25 18:26:40 symfony [info] {sfFilter} render to client
+Nov 25 18:26:40 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 25 18:26:40 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 25 18:26:40 symfony [info] {sfResponse} send content (42005 o)
+Nov 25 18:26:40 symfony [info] {sfTimerManager} Configuration 44.08 ms (11)
+Nov 25 18:26:40 symfony [info] {sfTimerManager} Action "product/list" 15.17 ms (1)
+Nov 25 18:26:40 symfony [info] {sfTimerManager} Database 0.48 ms (2)
+Nov 25 18:26:40 symfony [info] {sfTimerManager} View "Success" for "product/list" 26.16 ms (1)
+Nov 25 18:26:40 symfony [info] {sfTimerManager} Partial "global/_sidebar" 0.83 ms (1)
+Nov 25 18:26:42 symfony [info] {sfContext} initialization
+Nov 25 18:26:42 symfony [info] {sfController} initialization
+Nov 25 18:26:42 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Nov 25 18:26:42 symfony [info] {sfRequest} request parameters array (  'module' => 'gallery',  'action' => 'list',)
+Nov 25 18:26:42 symfony [info] {sfController} dispatch request
+Nov 25 18:26:42 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:42 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:42 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:42 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:42 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:42 symfony [info] {sfCreole} connect(): DSN: array (   'compat_assoc_lower' => NULL,   'compat_rtrim_string' => NULL,   'database' => 'meh_jbl',   'encoding' => NULL,   'hostspec' => 'localhost',   'password' => 'svs',   'persistent' => true,   'phptype' => 'mysql',   'port' => NULL,   'protocol' => NULL,   'socket' => NULL,   'username' => 'svs', ), FLAGS: 1
+Nov 25 18:26:42 symfony [info] {sfCreole} prepareStatement(): SELECT COUNT(gallery.ID) FROM gallery
+Nov 25 18:26:42 symfony [info] {sfCreole} executeQuery(): [0.38 ms] SELECT COUNT(gallery.ID) FROM gallery
+Nov 25 18:26:42 symfony [info] {sfCreole} prepareStatement(): SELECT gallery.ID, gallery.TITLE, gallery.IMAGE, gallery.STATUS, gallery.UPDATED_AT, gallery.CREATED_AT FROM gallery
+Nov 25 18:26:42 symfony [info] {sfCreole} applyLimit(): SELECT gallery.ID, gallery.TITLE, gallery.IMAGE, gallery.STATUS, gallery.UPDATED_AT, gallery.CREATED_AT FROM gallery, offset: 0, limit: 20
+Nov 25 18:26:42 symfony [info] {sfCreole} executeQuery(): [0.40 ms] SELECT gallery.ID, gallery.TITLE, gallery.IMAGE, gallery.STATUS, gallery.UPDATED_AT, gallery.CREATED_AT FROM gallery LIMIT 20
+Nov 25 18:26:42 symfony [info] {sfView} initialize view for "gallery/list"
+Nov 25 18:26:42 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/gallery/templates/listSuccess.php"
+Nov 25 18:26:42 symfony [info] {sfView} decorate content with "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:42 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:42 symfony [info] {sfView} initialize view for "global/_sidebar"
+Nov 25 18:26:42 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/_sidebar.php"
+Nov 25 18:26:42 symfony [info] {sfFilter} render to client
+Nov 25 18:26:42 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 25 18:26:42 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 25 18:26:42 symfony [info] {sfResponse} send content (30464 o)
+Nov 25 18:26:42 symfony [info] {sfTimerManager} Configuration 15.40 ms (11)
+Nov 25 18:26:42 symfony [info] {sfTimerManager} Action "gallery/list" 15.97 ms (1)
+Nov 25 18:26:42 symfony [info] {sfTimerManager} Database 0.77 ms (2)
+Nov 25 18:26:42 symfony [info] {sfTimerManager} View "Success" for "gallery/list" 16.33 ms (1)
+Nov 25 18:26:42 symfony [info] {sfTimerManager} Partial "global/_sidebar" 0.87 ms (1)
+Nov 25 18:26:44 symfony [info] {sfContext} initialization
+Nov 25 18:26:44 symfony [info] {sfController} initialization
+Nov 25 18:26:44 symfony [info] {sfRouting} match route [default_symfony] "/symfony/:action/*"
+Nov 25 18:26:44 symfony [info] {sfRequest} request parameters array (  'action' => 'signOut',  'module' => 'default',)
+Nov 25 18:26:44 symfony [info] {sfController} dispatch request
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:44 symfony [info] {sfUser} user is not authenticated
+Nov 25 18:26:44 symfony [info] {sfAction} redirect to "http://meh.jbl.svs113/admin/"
+Nov 25 18:26:44 symfony [info] {sfResponse} send status "HTTP/1.0 302 Found"
+Nov 25 18:26:44 symfony [info] {sfResponse} send header "Location": "http://meh.jbl.svs113/admin/"
+Nov 25 18:26:44 symfony [info] {sfResponse} send content (99 o)
+Nov 25 18:26:44 symfony [info] {sfContext} initialization
+Nov 25 18:26:44 symfony [info] {sfController} initialization
+Nov 25 18:26:44 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 25 18:26:44 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 25 18:26:44 symfony [info] {sfController} dispatch request
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfWebDebugFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 25 18:26:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 25 18:26:44 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Nov 25 18:26:44 symfony [info] {sfView} initialize view for "default/index"
+Nov 25 18:26:44 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/modules/default/templates/indexSuccess.php"
+Nov 25 18:26:44 symfony [info] {sfView} decorate content with "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:44 symfony [info] {sfView} render "/home/mehul/web/www.jbl.com/apps/admin/templates/layout.php"
+Nov 25 18:26:44 symfony [info] {sfFilter} render to client
+Nov 25 18:26:44 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 25 18:26:44 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 25 18:26:44 symfony [info] {sfResponse} send content (19927 o)
+Nov 25 18:26:44 symfony [info] {sfTimerManager} Configuration 2.10 ms (10)
+Nov 25 18:26:44 symfony [info] {sfTimerManager} Action "default/index" 0.08 ms (1)
+Nov 25 18:26:44 symfony [info] {sfTimerManager} View "Success" for "default/index" 6.36 ms (1)

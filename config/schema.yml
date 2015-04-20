@@ -1,0 +1,24 @@
+propel:
+  adminlogin:
+    _attributes: { phpName: Adminlogin }
+    id: { type: integer, required: true, autoIncrement: true, primaryKey: true }
+    admin_user: varchar(255)
+    admin_pass: varchar(255)
+    
+  product:
+    _attributes: { phpName: Product }
+    id: { type: integer, required: true, autoIncrement: true, primaryKey: true }
+    title: varchar(255)
+    image: varchar(50)
+    status: tinyint
+    updated_at:
+    created_at:
+
+  gallery:
+    _attributes: { phpName: Gallery }
+    id: { type: integer, required: true, autoIncrement: true, primaryKey: true }
+    title: varchar(255)
+    image: varchar(50)
+    status: tinyint
+    updated_at:
+    created_at:

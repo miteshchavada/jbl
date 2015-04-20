@@ -1,0 +1,11 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [title]
+
+names:
+  title:
+    required:     Yes
+    required_msg: Title cannot be left blank

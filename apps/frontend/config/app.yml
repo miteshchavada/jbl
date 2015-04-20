@@ -1,0 +1,3 @@
+all:
+  web_path:         http://ram.jbl.svs153
+  upload_webpath:  /home/ramesh/web/www.jbl.com/web/uploads

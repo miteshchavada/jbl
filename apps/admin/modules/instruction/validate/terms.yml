@@ -1,0 +1,14 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [terms_data]
+
+fillin:
+  enable:  true
+
+names:
+  terms_data:
+    required:     Yes
+    required_msg: Please Enter Terms Data

@@ -1,0 +1,11 @@
+<div class="cont-col">
+<div class="conttl">Main Office</div>
+<p class="txtdtls"><strong>Joseph Borg Ltd.</strong><br /> 52/2, Zachary Street,<br /> Valletta, VLT1130</p>
+<p class="contdtls"><strong>Tel:</strong> +356 21232261/2<br /> <strong>Fax:</strong> +356 21244549</p>
+</div>
+<div class="cont-col">
+<div class="conttl">Warehouse</div>
+<p class="txtdtls"><strong>Joseph Borg Ltd.</strong><br /> 70,72, Triq Fra Diego,<br /> Marsa, MRS1504</p>
+<p class="contdtls"><strong>Tel:</strong> +356 21237236</p>
+<p class="contdtls"><label>General Enquiry: </label><a href="mailto:info@jblmalta.com">info@jblmalta.com</a><br /> <label>Stephen: </label><a href="mailto:smeli@jblmalta.com">smeli@jblmalta.com</a><br /> <label>Joanna :</label><a href="mailto:jmeli@jblmalta.com">jmeli@jblmalta.com</a></p>
+</div>

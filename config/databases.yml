@@ -1,0 +1,7 @@
+all:
+  propel:
+    class:      sfPropelDatabase
+    param:
+      persistent:   true
+      dsn:      mysql://svs:svs@localhost/ram_jbl
+

@@ -1,0 +1,6 @@
+default:
+  stylesheets:   [fisheye-menu, dock, skin]
+
+changeLocationSuccess:
+  javascripts:    [common]
+  

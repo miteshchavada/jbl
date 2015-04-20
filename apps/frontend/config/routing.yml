@@ -1,0 +1,36 @@
+
+# default rules
+home:
+  url:   /home
+  param: { module: default, action: index }
+
+about-us:
+  url:   /about-us
+  param: { module: default, action: aboutUs }  
+
+contact-us:
+  url:   /contact-us
+  param: { module: default, action: contactUs }  
+ 
+new-market:
+  url:   /new-market
+  param: { module: default, action: newMarket}  
+  
+products:
+  url:   /products
+  param: { module: default, action: products }
+
+homepage:
+  url:   /
+  param: { module: default, action: index }    
+
+default_symfony:
+  url:   /symfony/:action/*
+  param: { module: default }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

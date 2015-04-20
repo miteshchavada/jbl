@@ -1,0 +1,14 @@
+
+fillin:
+  enable:  true
+
+methods:
+  post:           [aboutus]
+
+fillin:
+  enable:  true
+
+names:
+  aboutus:
+    required:     Yes
+    required_msg: Please Enter About Us Data

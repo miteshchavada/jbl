@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px; padding:0px; background-color:#be1000;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#393939;
+}
+img{border:none;}
+a:link, a:visited{
+	text-decoration:none; color:#AD2F30;
+}
+a:hover{
+	text-decoration:underline;
+}
+.pagemain{
+	width:100%; float:left;
+}
+.topstrip-mn{
+	width:100%; float:left; height:11px; background:url(../images/topstrip-bg.jpg) repeat-x top center;
+}
+.topstrip-inn{
+	width:100%; float:left; height:11px; background:url(../images/topstrip.jpg) no-repeat top center;
+}
+.bodymain{
+	width:100%; float:left; background:url(../images/body-bg.jpg) repeat-x top left #f6f1db;
+}
+.body-inn{
+	width:864px; margin:0 auto;
+}
+.header-main{
+	width:864px; float:left; margin-top:27px;
+}
+h1.logo{
+	width:auto; float:left; margin:0px; padding:0px; font-size:12px;
+}
+.toprod{
+	width:auto; float:right;
+}
+.nav-main{
+	width:864px; float:left; margin-top:30px; padding-bottom:11px; height:40px;
+	background:url(../images/nav-bg.png) no-repeat top left;
+}
+ul.topnavi{
+	width:auto; float:left; padding:9px 0 0 0px; margin:0px; list-style:none;
+}
+ul.topnavi li{
+	width:auto; float:left; display:inline-block; line-height:24px; margin-left:15px;
+}
+ul.topnavi li a:link, ul.topnavi li a:visited{
+	width:auto; float:left; font-weight:bold; color:#fff; text-decoration:none; padding-right:15px;
+}
+ul.topnavi li a:hover{
+	color:#ad2f30; background:url(../images/nav-ho.jpg) no-repeat top right;
+}
+ul.topnavi li a span{
+	width:15px; height:24px; float:left; font-size:0px;
+}
+ul.topnavi li a:hover span, ul.topnavi li a.current span{
+	width:15px; height:24px; float:left; background:url(../images/nav-ho.jpg) no-repeat top left;
+	font-size:0px;
+}
+ul.topnavi li a.current:link, ul.topnavi li a.current:visited, ul.topnavi li a.current:hover{
+	width:auto; float:left; font-weight:bold; color:#fff; text-decoration:none; padding-right:15px;
+	color:#ad2f30; background:url(../images/nav-ho.jpg) no-repeat top right;
+}
+.descpanelfg{text-align:center;}
+.bodycntn-mn{
+	width:864px; float:left;
+}
+.bodycntn-inn{
+	width:862px; float:left; background-color:#fff; border-left:solid 1px #ad2f30; border-right:solid 1px #ad2f30;
+}
+.bot-crv{
+	width:864px; height:13px; float:left; background:url(../images/bot-crv.png) no-repeat top left;
+}
+.slider-mn{
+	width:240px; float:left; padding:10px 0 0 20px;
+}
+.right-col{
+	width:560px; float:left; border-left:solid 1px #ce8283; padding-left:20px; margin:10px 0;
+	min-height:270px;
+}
+h2.titles{
+	width:100%; float:left; font-size:22px; font-weight:normal; color:#ad2f30; margin:5px 0 10px 0;
+}
+h2.titles font{
+	color:#393939; font-size:22px;
+}
+p.txtdtls{
+	width:100%; float:left; line-height:18px; text-align:justify; margin:0px;
+}
+p.txtdtls strong{
+	color:#ad2f30;
+}
+p.contdtls{
+	width:100%; float:left; line-height:18px;
+}
+p.contdtls label{
+	width:98px; float:left; font-weight:bold;
+}
+.conttl{
+	width:100%; float:left; font-size:15px; font-weight:bold; padding:10px 0;
+}
+.cont-col{
+	width:49%; float:left;
+}
+.prodbtn-raw{
+	width:100%; float:left; margin-top:10px;
+}
+a.aboutlink:link, a.aboutlink:visited{
+	width:106px; height:33px; float:right; line-height:33px; color:#fff; text-decoration:none;
+	background:url(../images/about-btn.jpg) no-repeat top left; padding-left:8px; font-size:14px; font-weight:bold;
+}
+a.aboutlink:hover{
+	background:url(../images/about-btn-ho.jpg) no-repeat top left; color:#ad2f30;
+}
+a.prodlink:link, a.prodlink:visited{
+	width:138px; height:33px; float:right; line-height:33px; color:#fff; text-decoration:none;
+	background:url(../images/prod-btn.jpg) no-repeat top left; padding-left:8px; font-size:14px; font-weight:bold;
+}
+a.prodlink:hover{
+	background:url(../images/prod-btn-ho.jpg) no-repeat top left; color:#ad2f30;
+}
+
+.comsoon{
+	width:100%; float:left; font-size:22px; text-align:center; padding-top:50px;
+}
+.footer-main{
+	width:100%; float:left; background:url(../images/footer-bg.jpg) repeat-x top center; margin-top:30px; height:63px;
+}
+.footer-shd{
+	width:100%; float:left; background:url(../images/footer-shd.png) no-repeat top center;
+}
+.footer-nav{
+	width:auto; float:left; color:#cc8e89; font-size:11px; padding-top:26px;
+}
+.footer-nav a:link, .footer-nav a:visited{
+	color:#ffe100; text-decoration:none; padding:0px 10px;
+}
+.footer-nav a:hover{
+	color:#fff;
+}
+.copytxt{
+	width:auto; float:right; color:#f6d6d3; font-size:11px; padding-top:26px;
+}
